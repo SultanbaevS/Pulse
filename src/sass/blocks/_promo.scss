@@ -1,7 +1,7 @@
 .promo {
    height: 650px;
    padding: 21px 0 93px 0;
-   background: url(../img/main_bg.jpg) center center/cover no-repeat;
+   background: url("../img/main_bg.jpg") center (center/cover) no-repeat;
    &__wrapper {
       margin-top: 91px;
       display: flex;
@@ -12,7 +12,7 @@
       font-weight: 700;
       font-size: 42px;
       text-transform: uppercase;
-      color: #FFFFFF;
+      color: #ffffff;
       line-height: 42px;
    }
    &__subheader {
@@ -21,7 +21,7 @@
       font-size: 24px;
       line-height: 24px;
       text-transform: uppercase;
-      color: #FFFFFF;
+      color: #ffffff;
    }
    &__icons {
       margin-top: 60px;
@@ -30,11 +30,11 @@
       justify-content: space-between;
    }
    &__icon {
-      width: 106px;
+      width: 112px;
       text-align: center;
       font-weight: 500;
       font-size: 14px;
-      color: #FFFFFF;
+      color: #ffffff;
       img {
          display: block;
          margin: 0 auto;
@@ -45,11 +45,11 @@
       margin-top: 17px;
       font-weight: 500;
       font-size: 16px;
-      color: #FFFFFF;
+      color: #ffffff;
       a {
          text-transform: uppercase;
          text-decoration: underline;
-         color: #FFFFFF;
+         color: #ffffff;
       }
    }
 }
