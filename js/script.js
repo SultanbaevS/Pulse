@@ -88,7 +88,7 @@ $(document).ready(function () {
    })
 
    $('[data-modal=submit]').on('click', function () {
-      $('.overlay, #thanks').fadeIn(slow);
+      $('.overlay, #thanks').fadeIn();
       $('#order').fadeOut();
    });
 
