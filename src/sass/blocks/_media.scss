@@ -189,7 +189,7 @@
    .promo {
       .header {
          &__logo {
-            width: 150px;
+            width: 180px;
          }
          &__phone {
             font-size: 14px;
@@ -250,6 +250,9 @@
    }
 
    .catalog {
+      &__tabs {
+         padding: 0 10px;
+      }
       &__tab {
          width: 160px;
          height: 30px;
@@ -308,6 +311,42 @@
          }
       }
    }
+
+   .overlay {
+      .modal {
+         width: 300px;
+         min-height: 300px;
+         background: #f2f2f2;
+         padding: 15px 10px 10px 10px;
+         &__close {
+            top: 2px;
+            right: 5px;
+            font-size: 41px;
+            line-height: 21px;
+         }
+         &__subtitle {
+            margin-top: 5px;
+            font-size: 16px;
+         }
+         &__descr {
+            font-size: 14px;
+         }
+         &_message {
+            min-height: 143px;
+         }
+         .feed-form {
+            width: 280px;
+            input {
+               height: 40px;
+            }
+         }
+         .button_submit {
+            width: 280px;
+            height: 40px;
+            font-size: 16px;
+         }
+      }
+   }
 }
 
 @media (max-width: 440px) {
@@ -347,7 +386,6 @@
          width: 320px;
       }
       &__icon {
-         width: 90%;
          font-size: 12px;
       }
    }
